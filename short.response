@@ -1,0 +1,23 @@
+1. If you are collaborating with a classmate what is the first thing that each of the team members need to do? Why is it important to do this step?
+
+Each classmate has to save their work and push up to diverge from the main branch. This is important so that the work gets saved. 
+
+2. Why do developers use branches? 
+
+Developers use branches to work on new ideas without changing the main project.
+
+3. What is git? What is github? How does git and github work together?
+
+Git is a distributed version control system. It's what developers use to take a snapshot of what the code looks like currently. 
+
+4. What is wrong with the following command sequence? What should be the correct command sequence?
+
+git commit -m "Saving work"
+git add .
+git push
+
+The order is wrong, the correct command sequence would be:
+
+git add .
+git commit -m "Saving work"
+git push
